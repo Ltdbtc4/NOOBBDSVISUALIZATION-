@@ -6,6 +6,7 @@ class stack:
         self.self.append(element)
 
     def pop(self):
+        # pop 0 for BFS pop -1 for DFS
         return self.self.pop(0)
 
     def __len__(self):
